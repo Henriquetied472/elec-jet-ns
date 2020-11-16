@@ -1,0 +1,20 @@
+{
+  "name": "elec-jet-ns",
+  "version": "1.0.0",
+  "description": "",
+  "main": "core.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Henriquetied472/elec-jet-ns.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Henriquetied472/elec-jet-ns/issues"
+  },
+  "homepage": "https://github.com/Henriquetied472/elec-jet-ns#readme"
+}
