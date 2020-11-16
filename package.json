@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/Henriquetied472/elec-jet-ns/issues"
   },
-  "homepage": "https://github.com/Henriquetied472/elec-jet-ns#readme"
+  "homepage": "https://github.com/Henriquetied472/elec-jet-ns#readme",
+  "dependencies": {
+    "next": "^10.0.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
 }
