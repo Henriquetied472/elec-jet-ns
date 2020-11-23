@@ -1,0 +1,24 @@
+{
+  "name": "elec-jet-ns",
+  "version": "1.0.0",
+  "description": "",
+  "main": "core.js",
+  "scripts": {
+    "start": "nodemon core.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Henriquetied472/elec-jet-ns.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Henriquetied472/elec-jet-ns/issues"
+  },
+  "homepage": "https://github.com/Henriquetied472/elec-jet-ns#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6"
+  }
+}
