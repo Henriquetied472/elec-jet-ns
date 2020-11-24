@@ -1,0 +1,125 @@
+@font-face {
+
+    font-family: Montserrat;
+    src: url('../fonts/Montserrat-Regular.ttf');
+
+}
+
+@font-face {
+
+    font-family: MontserratB;
+    src: url('../fonts/Montserrat-Bold.ttf');
+
+}
+
+@font-face {
+
+    font-family: MontserratSB;
+    src: url('../fonts/Montserrat-SemiBold.ttf');
+
+}
+
+body {
+
+    margin: 0px;
+    background-color: #e3fff2;
+
+}
+
+.menu {
+
+    background-color: #00FF89;
+    
+}
+
+.menu-image {
+
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+
+}
+
+.menu-text {
+
+    font-family: MontserratB;
+    text-align: right;
+    font-size: 16pt;
+    color: #FDA201;
+    font-weight: 10000;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 55px;
+    float: right;
+    cursor: pointer;
+
+}
+
+.title {
+
+    font-family: MontserratB;
+    font-size: 20pt;
+    margin: 30px;
+    text-align: center;
+
+}
+
+.text {
+
+    font-family: MontserratSB;
+    margin: 30px;
+
+}
+
+.text1 {
+
+    font-family: MontserratSB;
+    margin: 30px;
+    text-align: center;
+
+}
+
+.social-links {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.github-link {
+
+    width: 50px;
+    height: 40px;
+    inline-size: 40px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: solid #FDA201 3px;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    margin: 5px;
+
+}
+
+.twitter-link {
+
+    width: 50px;
+    height: 40px;
+    inline-size: 45px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: solid #FDA201 3px;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    margin: 5px;
+
+}
