@@ -4,7 +4,7 @@
   "description": "",
   "main": "core.js",
   "scripts": {
-    "start": "nodemon core.js"
+    "server": "nodemon core.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,7 @@
   "homepage": "https://github.com/Henriquetied472/elec-jet-ns#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "nodemailer": "^6.4.16",
     "nodemon": "^2.0.6"
   }
 }

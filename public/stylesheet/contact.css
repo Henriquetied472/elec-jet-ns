@@ -58,3 +58,47 @@ body {
 
 }
 
+form.form {
+
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    width: 1366px;
+
+}
+
+form.form input {
+
+    margin: 10px;
+    padding: 10px;
+    width: 320px;
+    background-color: rgba(0, 0, 0, 0);
+    border: #FDA201 solid 3px;
+    border-radius: 10px;
+    font-family: Montserrat;
+    
+}
+
+form.form textarea {
+
+    margin: 10px;
+    padding: 10px;
+    width: 320px;
+    height: 223px;
+    resize: none;
+    background-color: rgba(0, 0, 0, 0);
+    border: #FDA201 solid 3px;
+    border-radius: 10px;
+    font-family: Montserrat;
+
+}
+
+form.form input#submit {
+
+    margin: 10px;
+    padding: 10px;
+    width: 320px;
+    align-items: center;
+    justify-content: center;
+
+}
