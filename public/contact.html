@@ -6,7 +6,6 @@
     <title>ElecJet - Formulário de Contato</title>
     <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="./stylesheet/contact.css">
-    <script type="text/javascript" src="./js/mailSender.js"></script>
 </head>
 <body>
     <div class="menu">
@@ -17,15 +16,15 @@
         <a><h5 class="menu-text" title="Sobre nos">Sobre</h5></a>
 
     </div>
-    <form class="form">
+    <form onsubmit="javascript:sendMail()" class="form">
 
         <input type="text" name="name" id="name" placeholder="Nome" required>
         <input type="email" name="mail" id="mail" placeholder="Email" required>
         <input type="text" name="subject" id="subject" placeholder="Assunto" required>
         <textarea name="message" id="message" placeholder="Mensagem" required></textarea>
-        <input type="button" value="Enviar Formulário" id="submit" onclick="send()">
+        <input type="submit" value="Enviar Formulário" id="submit">
 
     </form>
-    <script type="text/javascript" src="./js/mailSender.js"></script>
+    <script type="text/javascript" src="./js/mailSender.mjs"></script>
 </body>
 </html>
